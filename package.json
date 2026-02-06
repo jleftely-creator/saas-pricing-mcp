@@ -1,0 +1,45 @@
+{
+  "name": "@creatorfusion/saas-pricing-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for SaaS Pricing Intelligence - Extract and compare software pricing data via AI agents",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "saas-pricing-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "saas",
+    "pricing",
+    "scraper",
+    "ai-agent",
+    "apify",
+    "competitive-intelligence",
+    "market-research",
+    "claude",
+    "openclaw"
+  ],
+  "author": "Creator Fusion",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "apify-client": "^2.9.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/creatorfusion/saas-pricing-mcp"
+  }
+}
